@@ -17,7 +17,7 @@ Consta de un menú con las opciones iniciales y corre sobre consola.
 El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
 
 compilar con:
-"g++ comida.h mesero.h main.cpp"
+"g++ comida.h mesero.h mainn.cpp"
  
 correr en linux:"/a.out"
       
