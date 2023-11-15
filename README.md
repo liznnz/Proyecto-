@@ -13,7 +13,7 @@ El programa solo recibe la cantidad de ordenes de :
   
 Consta de un menú con las opciones iniciales y corre sobre consola.
 
-## Consideraciones
+# Consideraciones
 El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
 
 compilar con:
@@ -23,5 +23,5 @@ correr en linux:"/a.out"
       
 correr en windows:"a.exe"
 
-#Correcciones
+# Correcciones
 Se han añadido 2 clases, una en donde esta la comida, de ella se hereda la clase de los tacos, las enchiladas y el pollo; la otra clase es mesero, que involucra el menú a ordenar y el contador que da el total para ser cobrado, recordar que el menú se muestra después como un cilco para añadir algun otro pedido, para tener un control en la interacción con el usuario. 
