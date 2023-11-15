@@ -5,9 +5,7 @@
  *
  */
 
-
-
-#indef COMIDA_H_
+#ifndef COMIDA_H_
 #define COMIDA_H_
 
 #include <iomanip>
