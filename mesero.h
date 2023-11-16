@@ -1,5 +1,5 @@
 /*
- * Clase Mesero que es para a–adir el pedido
+ * Clase Mesero que es para aâ€“adir el pedido
  * y tiene 1 clase hija para dar el total:
  * Contador
  *
@@ -9,20 +9,22 @@
 #ifndef MESERO_H_
 #define MESERO_H_
 
+#include <iostream>
 #include <iomanip>
+#include "comida.h"
 
 class Mesero {
 public:
     void tomarOrden(Tacos& tacos, Enchiladas& enchiladas, Pollo& pollo) {
         int opcion;
         do {
-            // Menœ
-            std::cout << "\nMenœ:\n" << std::endl;
+            // MenÅ“
+            std::cout << "\nMenÅ“:\n" << std::endl;
             std::cout << "1. Agrega Tacos" << std::endl;
             std::cout << "2. Agrega Enchiladas" << std::endl;
             std::cout << "3. Agrega Pollo" << std::endl;
             std::cout << "4. Salir" << std::endl;
-            std::cout << "\nSeleccione una opci—n: ";
+            std::cout << "\nSeleccione una opciâ€”n: ";
             std::cin >> opcion;
 
             switch (opcion) {
@@ -39,7 +41,7 @@ public:
                     break;
 
                 case 4:
-                    std::cout << "Orden tomada. ÁBuen provecho!\n";
+                    std::cout << "Orden tomada. ÃBuen provecho!\n";
                     break;
 
                 default:
