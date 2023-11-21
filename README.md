@@ -2,7 +2,7 @@
 El puesto de comida rápida “Carmelita" necesita cobrar el total de consumo de los clientes lo más rápido posible para tener un orden y control de las ganancias. 
 
 # Contexto
-El usuario solamente podrá añadir la cantidad de una cantidad a la vez de tipos de tacos, de enchiladas con pollo y la cantidad de piezas de pollo que le pidan; en caso de no que el cliente no pidio algo colocar un 0. Todo es un ciclo para facilitar su uso, se añadirán uno por uno, primero una cantidad de taco, enchilada o pollo,y en seguida le mostrará el menú por si quiere añadir otra cosa o finalmente saber el precio total por orden del cliente. La delicuencia esta fea, así que el mesero solo podrá tomar la orden, y el contador es el encargado de saber el total por pedido y cobrar el total de pesos de la orden.
+El usuario solamente podrá añadir la cantidad de una cantidad a la vez de tipos de tacos, de enchiladas con pollo y la cantidad de piezas de pollo que le pidan; en caso de no que el cliente no pidio algo colocar un 0. Todo es un ciclo para facilitar su uso, se añadirán uno por uno, primero una cantidad de taco, enchilada o pollo,y en seguida le mostrará el menú por si quiere añadir otra cosa o finalmente saber el precio total por orden del cliente. La delicuencia esta fea, así que el mesero solo podrá tomar la orden, y el contador es el encargado de saber el total por pedido y cobrar el total de pesos de la orden. Al precionar salir dará el contador el total.
 
 # Funcionalidad
 El programa solo recibe la cantidad de ordenes de :
