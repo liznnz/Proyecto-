@@ -18,13 +18,13 @@ public:
     void tomarOrden(Tacos& tacos, Enchiladas& enchiladas, Pollo& pollo) {
         int opcion;
         do {
-            // Menœ
-            std::cout << "\nMenœ:\n" << std::endl;
+            // Menu
+            std::cout << "\nMenu:\n" << std::endl;
             std::cout << "1. Agrega Tacos" << std::endl;
             std::cout << "2. Agrega Enchiladas" << std::endl;
             std::cout << "3. Agrega Pollo" << std::endl;
             std::cout << "4. Salir" << std::endl;
-            std::cout << "\nSeleccione una opci—n: ";
+            std::cout << "\nSeleccione una opcion: ";
             std::cin >> opcion;
 
             switch (opcion) {
