@@ -22,6 +22,3 @@ compilar con:
 correr en linux:"/a.out"
       
 correr en windows:"a.exe"
-
-# Correcciones
-Se han añadido 2 clases, una en donde esta la comida, de ella se hereda la clase de los tacos, las enchiladas y el pollo; la otra clase es mesero, que involucra el menú a ordenar y el contador que da el total para ser cobrado, recordar que el menú se muestra después como un cilco para añadir algun otro pedido, para tener un control en la interacción con el usuario. 
