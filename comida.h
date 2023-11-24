@@ -1,4 +1,11 @@
 /*
+ * Proyecto Carmelita
+ * Lizeth Niniz Corona
+ * A01711740
+ * 20/11/2023
+ */
+
+/*
  * Clase Comida contiene las bases para los platillos
  * y tiene 3 clases hijas que son los tipos de comida:
  * Tacos, Enchiladas y Pollo
