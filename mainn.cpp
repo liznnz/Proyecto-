@@ -13,20 +13,23 @@
  * de un tipo, se coloca 0.
 */
 
-
-#include <iostream>
+//Bibliotecas
+#include <iostream> //Para imprimir
 #include <iomanip>
-#include "comida.h" //objetos
+#include "comida.h" //Objetos del proyecto
 #include "mesero.h"
 
 int main() {
+    //Objetos que se añadiran
     Tacos tacos;
     Enchiladas enchiladas;
     Pollo pollo;
     Contador contador;
 
-    contador.tomarOrden(tacos, enchiladas, pollo);
+    //Agrega las cantidades de cada platillo
+    contador.tomarOrden(tacos, enchiladas, pollo); 
 
+    //Calcula y da el resultado total de la orden
     double total = contador.calcularTotal(tacos, enchiladas, pollo);
     std::cout << "\nEl total es: $" << std::fixed << std::setprecision(2) << total << std::endl;
 
