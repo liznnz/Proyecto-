@@ -122,6 +122,7 @@ class Enchiladas : public Comida {
 
 //Declaro objeto Pollo que hereda de Comida
 class Pollo : public Comida {
+
     private:
         //Declaro variables de instancia
         int cantidadMedioPollo;
