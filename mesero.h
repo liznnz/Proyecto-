@@ -136,7 +136,7 @@ class Mesero {
             // Actualizar la cantidad de Dos Piezas de Pollo en el objeto pollo sumándole la nueva cantidad ingresada
             pollo.setCantidadDosPiezas(pollo.getCantidadDosPiezas() + cantidadDosPiezas);
         }
-}
+};
 
 //Declaro objeto Contador que hereda de Mesero
 class Contador : public Mesero {
