@@ -69,42 +69,71 @@ class Mesero {
 
         //Procedimiento para agregar tacos a la orden
         void agregarTacos(Tacos& tacos) {
+            // Variables para almacenar las cantidades de cada tipo de taco
             int cantidadBistec, cantidadChorizo, cantidadTripita;
+
+            // Solicitar al usuario la cantidad de Tacos de Bistec
             std::cout << "Ingrese la cantidad de Tacos de Bistec: ";
             std::cin >> cantidadBistec;
+
+            // Actualizar la cantidad de Tacos de Bistec en el objeto Tacos
             tacos.setCantidadBistec(tacos.getCantidadBistec() + cantidadBistec);
 
+            // Solicitar al usuario la cantidad de Tacos de Chorizo
             std::cout << "Ingrese la cantidad de Tacos de Chorizo: ";
             std::cin >> cantidadChorizo;
+
+            // Actualizar la cantidad de Tacos de Chorizo en el objeto Tacos
             tacos.setCantidadChorizo(tacos.getCantidadChorizo() + cantidadChorizo);
 
+            // Solicitar al usuario la cantidad de Tacos de Tripita
             std::cout << "Ingrese la cantidad de Tacos de Tripita: ";
             std::cin >> cantidadTripita;
+
+            // Actualizar la cantidad de Tacos de Tripita en el objeto Tacos
             tacos.setCantidadTripita(tacos.getCantidadTripita() + cantidadTripita);
         }
 
 
         //Procedimiento para agregar enchiladas a la orden
         void agregarEnchiladas(Enchiladas& enchiladas) {
+            // Declaración de variable para almacenar la cantidad de enchiladas
             int cantidadEnchiladas;
+
+            // Solicita al usuario ingresar la cantidad de enchiladas
             std::cout << "Ingrese la cantidad de Enchiladas: ";
+
+            // Lee la cantidad ingresada por el usuario y la asigna a la variable cantidadEnchiladas
             std::cin >> cantidadEnchiladas;
+
+            // Actualiza la cantidad de enchiladas en el objeto enchiladas sumando la cantidad ingresada
             enchiladas.setCantidad(enchiladas.getCantidad() + cantidadEnchiladas);
         }
 
         //Procedimiento para agregar pollo a la orden
         void agregarPollo(Pollo& pollo) {
+            // Variables para almacenar la cantidad de diferentes opciones de pollo
             int cantidadMedioPollo, cantidadPolloEntero, cantidadDosPiezas;
+
+            // Solicitar al usuario ingresar la cantidad de Medio Pollo
             std::cout << "Ingrese la cantidad de Medio Pollo: ";
             std::cin >> cantidadMedioPollo;
+
+            // Actualizar la cantidad de Medio Pollo en el objeto pollo sumándole la nueva cantidad ingresada
             pollo.setCantidadMedioPollo(pollo.getCantidadMedioPollo() + cantidadMedioPollo);
 
+            // Solicitar al usuario ingresar la cantidad de Pollo Entero
             std::cout << "Ingrese la cantidad de Pollo Entero: ";
             std::cin >> cantidadPolloEntero;
+
+            // Actualizar la cantidad de Pollo Entero en el objeto pollo sumándole la nueva cantidad ingresada
             pollo.setCantidadPolloEntero(pollo.getCantidadPolloEntero() + cantidadPolloEntero);
 
+            // Solicitar al usuario ingresar la cantidad de Dos Piezas de Pollo
             std::cout << "Ingrese la cantidad de Dos Piezas de Pollo: ";
             std::cin >> cantidadDosPiezas;
+
+            // Actualizar la cantidad de Dos Piezas de Pollo en el objeto pollo sumándole la nueva cantidad ingresada
             pollo.setCantidadDosPiezas(pollo.getCantidadDosPiezas() + cantidadDosPiezas);
         }
 }
