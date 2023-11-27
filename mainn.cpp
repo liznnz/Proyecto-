@@ -20,7 +20,7 @@
 #include "mesero.h"
 
 int main() {
-    //Objetos que se añadiran
+    
     Tacos tacos;
     Enchiladas enchiladas;
     Pollo pollo;
