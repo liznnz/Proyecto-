@@ -56,42 +56,63 @@ void setCantidad(int cantidadComida) {
         }
 };
 
-//Declaro objeto Taco que hereda de Comida
+//Declaro objeto Tacos que hereda de Comida
 class Tacos : public Comida {
-private:
-    int cantidadBistec;
-    int cantidadChorizo;
-    int cantidadTripita;
 
-public:
-    // Constructor
-    Tacos() : cantidadBistec(0), cantidadChorizo(0), cantidadTripita(0) {}
+    private:
+        //Declaro variables de instancia
+        int cantidadBistec;
+        int cantidadChorizo;
+        int cantidadTripita;
 
-    // Getters
-    int getCantidadBistec() const {
-        return cantidadBistec;
-    }
+    public:
+/**
+* Constructor por default
+*
+* @param
+* @return Objeto Tacos
+*/
+Tacos() : cantidadBistec(0), cantidadChorizo(0), cantidadTripita(0) {}
 
-    int getCantidadChorizo() const {
-        return cantidadChorizo;
-    }
+/**
+ * getter cantidad de bistec, chorizo y tripita
+ *
+ * @param
+ * @return int: cantidad de bistec, chorizo y tripita
+*/
+int getCantidad() const {
+    return cantidad;
+}  
 
-    int getCantidadTripita() const {
-        return cantidadTripita;
-    }
+int getCantidadBistec() const {
+    return cantidadBistec;
+}
 
-    // Setters
-    void setCantidadBistec(int cantidad) {
-        cantidadBistec = cantidad;
-    }
+int getCantidadChorizo() const {
+    return cantidadChorizo;
+}
 
-    void setCantidadChorizo(int cantidad) {
-        cantidadChorizo = cantidad;
-    }
+int getCantidadTripita() const {
+    return cantidadTripita;
+}
 
-    void setCantidadTripita(int cantidad) {
-        cantidadTripita = cantidad;
-    }
+/**
+ * setter cantidad de bistec, chorizo y tripita
+ *
+ * @param
+ * @return int: cantidad de bistec, chorizo y tripita
+*/
+void setCantidadBistec(int cantidad) {
+    cantidadBistec = cantidad;
+}
+
+void setCantidadChorizo(int cantidad) {
+    cantidadChorizo = cantidad;
+}
+
+void setCantidadTripita(int cantidad) {
+    cantidadTripita = cantidad;
+}
 };
 
 //Declaro objeto Enchiladas que hereda de Comida
@@ -101,40 +122,56 @@ class Enchiladas : public Comida {
 
 //Declaro objeto Pollo que hereda de Comida
 class Pollo : public Comida {
-private:
-    int cantidadMedioPollo;
-    int cantidadPolloEntero;
-    int cantidadDosPiezas;
+    private:
+        //Declaro variables de instancia
+        int cantidadMedioPollo;
+        int cantidadPolloEntero;
+        int cantidadDosPiezas;
 
-public:
-    // Constructor
-    Pollo() : cantidadMedioPollo(0), cantidadPolloEntero(0), cantidadDosPiezas(0) {}
+    public:
+/**
+* Constructor por default
+*
+* @param
+* @return Objeto Pollo
+*/
+Pollo() : cantidadMedioPollo(0), cantidadPolloEntero(0), cantidadDosPiezas(0) {}
 
-    // Getters
-    int getCantidadMedioPollo() const {
-        return cantidadMedioPollo;
-    }
+/**
+ * getter cantidad de bistec, chorizo y tripita
+ *
+ * @param
+ * @return int: cantidad de bistec, chorizo y tripita
+*/
+int getCantidadMedioPollo() const {
+    return cantidadMedioPollo;
+}
 
-    int getCantidadPolloEntero() const {
-        return cantidadPolloEntero;
-    }
+int getCantidadPolloEntero() const {
+    return cantidadPolloEntero;
+}
 
-    int getCantidadDosPiezas() const {
-        return cantidadDosPiezas;
-    }
+int getCantidadDosPiezas() const {
+    return cantidadDosPiezas;
+}
 
-    // Setters
-    void setCantidadMedioPollo(int cantidad) {
-        cantidadMedioPollo = cantidad;
-    }
+/**
+ * setter cantidad de bistec, chorizo y tripita
+ *
+ * @param
+ * @return int: cantidad de bistec, chorizo y tripita
+*/
+void setCantidadMedioPollo(int cantidad) {
+    cantidadMedioPollo = cantidad;
+}
 
-    void setCantidadPolloEntero(int cantidad) {
-        cantidadPolloEntero = cantidad;
-    }
+void setCantidadPolloEntero(int cantidad) {
+    cantidadPolloEntero = cantidad;
+}
 
-    void setCantidadDosPiezas(int cantidad) {
-        cantidadDosPiezas = cantidad;
-    }
+void setCantidadDosPiezas(int cantidad) {
+    cantidadDosPiezas = cantidad;
+}
 };
 
 #endif // COMIDA_H_
