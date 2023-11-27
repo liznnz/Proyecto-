@@ -17,25 +17,46 @@
 
 #include <iomanip>
 
+//Declaracion de clase comida
 class Comida {
-private:
-    int cantidad;
 
-public:
-    // Constructor
-    Comida() : cantidad(0) {}
+    private:
+        //Declaro variables de instancia
+        int cantidad;
 
-    // Getter
-    int getCantidad() const {
-        return cantidad;
-    }
+    public:
+        
+/**
+* Constructor por default
+*
+* @param
+* @return Objeto Empleado
+*/
+Comida() : cantidad(0) {}
 
-    // Setter
-    void setCantidad(int cantidadComida) {
-        cantidad = cantidadComida;
-    }
+        
+/**
+ * getter cantidad
+ *
+ * @param
+ * @return int: cantidad 
+*/
+int getCantidad() const {
+    return cantidad;
+}
+
+/**
+ * setter cantidad
+ *
+ * @param
+ * @return int: cantidad 
+*/
+void setCantidad(int cantidadComida) {
+    cantidad = cantidadComida;
+        }
 };
 
+//Declaro objeto Taco que hereda de Comida
 class Tacos : public Comida {
 private:
     int cantidadBistec;
@@ -73,10 +94,12 @@ public:
     }
 };
 
+//Declaro objeto Enchiladas que hereda de Comida
 class Enchiladas : public Comida {
     // Enchiladas hereda directamente de Comida, ya que no tiene atributos adicionales.
 };
 
+//Declaro objeto Pollo que hereda de Comida
 class Pollo : public Comida {
 private:
     int cantidadMedioPollo;
