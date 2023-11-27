@@ -80,10 +80,6 @@ Tacos() : cantidadBistec(0), cantidadChorizo(0), cantidadTripita(0) {}
  * @param
  * @return int: cantidad de bistec, chorizo y tripita
 */
-int getCantidad() const {
-    return cantidad;
-}  
-
 int getCantidadBistec() const {
     return cantidadBistec;
 }
