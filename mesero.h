@@ -55,7 +55,7 @@ class Mesero {
                         break;
                     //Caso 4 que imprime el total de la orden y salir del ciclo
                     case 4:
-                        std::cout << "Orden tomada. ÁBuen provecho!\n";
+                        std::cout << "Orden tomada. Buen provecho!\n";
                         break;
                     //Mensaje para opciones no validas
                     default:
