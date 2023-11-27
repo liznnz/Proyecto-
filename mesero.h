@@ -15,13 +15,13 @@
 
 #ifndef MESERO_H_
 #define MESERO_H_
-
 #include <iostream>
 #include <iomanip>
+
 #include "comida.h"
 
 
-//Declaracion de clase empleado que es abstracta
+//Declaracion de clase mesero 
 class Mesero {
 
     public:
@@ -104,8 +104,9 @@ class Mesero {
     }
 };
 
+//Declaro objeto Contador que hereda de Mesero
 class Contador : public Mesero {
-public:
+    public:
     double calcularTotal(const Tacos& tacos, const Enchiladas& enchiladas, const Pollo& pollo) const {
         return tacos.getCantidadBistec() * 8 + tacos.getCantidadChorizo() * 8 + tacos.getCantidadTripita() * 9 +
                enchiladas.getCantidad() * 35 + pollo.getCantidadMedioPollo() * 80 +
